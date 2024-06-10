@@ -1,10 +1,9 @@
-﻿namespace Encapsulation
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿using Encapsulation;
+
+Console.WriteLine("Hello, World!");
+
+// Path: Encapsulation/Program.c
+Product product = new Product();
+var value = -1;
+product.Price = value;
+Console.WriteLine(product.Price);
