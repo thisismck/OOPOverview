@@ -23,22 +23,18 @@ namespace Inheritance
             Console.WriteLine($"{GetType().Name} pilavla sunum yapildi");
         }
     }
-
     public class Corba : Yemek
     {
         public bool LimonEklenebilirMi { get; set; }
     }
-
     public class EtYemek : Yemek
     {
         public string EtTuru { get; set; }
     }
-
     public class Kofte : EtYemek
     {
         public bool BaharatliMi { get; set; }
     }
-
     public class Tatli : Yemek
     {
         public bool SutluMu { get; set; }
@@ -47,7 +43,6 @@ namespace Inheritance
             Console.WriteLine($"{GetType().Name} üzerine ceviz serpildi");
         }
     }
-
     public class Kazandibi : Tatli
     {
         public bool KaramelizeMi { get; set; }
